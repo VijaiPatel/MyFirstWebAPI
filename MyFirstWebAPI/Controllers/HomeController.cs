@@ -10,10 +10,11 @@ namespace MyFirstWebAPI.Controllers
     // ../api/Home
     public class HomeController : ApiController
     {
-        public string Get()
+        public string[] Get()
         {
-            return "Hello World";
+            return new string[] { "apple", "Banana", "Orange" };
         }
     }
+
 
 }
